@@ -1,4 +1,4 @@
-public class test {
+public class Number_add {
     public static void main(String[] args) {
     
         double targetNum =3;
