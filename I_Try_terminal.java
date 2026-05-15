@@ -13,19 +13,14 @@ public class I_Try_terminal {
 
         System.out.println("You entered: " + OrignalNum);
 
-        System.out.println("is this correct? (yes/no)");
+        System.out.println("is this correct? (y/n)");
         String answer = scanner1.nextLine();
-        if (answer.equalsIgnoreCase("yes")) {
+        if (answer.equalsIgnoreCase("y")) {
             System.out.println("Great! You confirmed the number: " + OrignalNum);
              System.out.println("script successfully executed");
         } else {
-             System.out.println("please re-enter the number to confirm it is correct");
-            String ConfirmNum = scanner1.nextLine();
-            if (ConfirmNum.equals(OrignalNum)) {
-                System.out.println("Number confirmed successfully: " + ConfirmNum);
-            } else {
-                System.out.println("The numbers do not match. Please run the program again to enter the correct number.");
-            }
+          System.out.println("The numbers do not match. Please run the program again to enter the correct number.");
+
         }
 
        
